@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PackageCalculationSuite" verbose="2">
+	<listeners>
+		<listener class-name="com.generics.AnnotationTransformerImpl" />
+		<listener class-name="com.generics.CustomReporter" />
+	<!-- 	<listener class-name="com.generic.ExtentReporter" /> -->
+	</listeners>
+	<test name="PackageCalculation" verbose="2">
+		<classes>
+			<class name="aqmtech.PackageCalculation_Test" />
+		</classes>
+	</test>
+</suite>
